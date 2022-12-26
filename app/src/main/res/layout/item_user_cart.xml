@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/pizza1" />
 
     <TextView
-        android:id="@+id/txtNameFoodCart"
+        android:id="@+id/txtIdOrderBill_itemOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtFeeEachItem"
+        android:id="@+id/txtPrice_itemCart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -41,12 +41,12 @@
         android:text="0 VND"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/txtNameFoodCart"
+        app:layout_constraintBottom_toBottomOf="@+id/txtIdOrderBill_itemOrder"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtNameFoodCart" />
+        app:layout_constraintTop_toTopOf="@+id/txtIdOrderBill_itemOrder" />
 
     <TextView
-        android:id="@+id/txtTotalEachItem"
+        android:id="@+id/txtTotalPrice_itemCart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0 VND"
@@ -54,7 +54,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
-        app:layout_constraintEnd_toEndOf="@+id/txtFeeEachItem"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrice_itemCart"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -63,11 +63,11 @@
         android:layout_height="match_parent"
         android:background="@drawable/custom_background_yellow_cart"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/txtNameFoodCart"
-        app:layout_constraintTop_toBottomOf="@+id/txtNameFoodCart">
+        app:layout_constraintStart_toStartOf="@+id/txtIdOrderBill_itemOrder"
+        app:layout_constraintTop_toBottomOf="@+id/txtIdOrderBill_itemOrder">
 
         <ImageView
-            android:id="@+id/btnMinus"
+            android:id="@+id/btnMinus_itemCart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -79,7 +79,7 @@
             app:srcCompat="@drawable/minus" />
 
         <ImageView
-            android:id="@+id/btnPlus"
+            android:id="@+id/btnPlus_itemCart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -110,7 +110,7 @@
                 app:srcCompat="@drawable/white_circle" />
 
             <TextView
-                android:id="@+id/txtNumber"
+                android:id="@+id/txtNumber_itemCart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"

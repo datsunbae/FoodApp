@@ -49,7 +49,7 @@
                     android:id="@+id/txtSearchAndOrder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tìm kiếm và đặt hàng"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:layout_marginTop="8dp"
@@ -171,7 +171,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/edtSearch" />
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/rcvCategory"
+                    android:id="@+id/rcvCategory_fragmentHome"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:clipToPadding="false"
@@ -189,10 +189,10 @@
                     android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="@+id/txtCategories"
-                    app:layout_constraintTop_toBottomOf="@+id/rcvCategory" />
+                    app:layout_constraintTop_toBottomOf="@+id/rcvCategory_fragmentHome" />
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/rcvRecommended"
+                    android:id="@+id/rcvRecommended_fragmentHome"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:clipToPadding="false"
@@ -202,7 +202,7 @@
                 </androidx.recyclerview.widget.RecyclerView>
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/xemThem_fragment_home"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Xem thêm"

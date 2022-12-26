@@ -52,7 +52,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"/>
             <EditText
-                android:id="@+id/txtFullName_Register"
+                android:id="@+id/txtFullName_Profile"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -77,7 +77,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"/>
             <EditText
-                android:id="@+id/txtAddress_Register"
+                android:id="@+id/txtAddress_Profile"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -101,7 +101,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"/>
             <EditText
-                android:id="@+id/txtPhone_Register"
+                android:id="@+id/txtPhone_Profile"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -125,7 +125,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"/>
             <EditText
-                android:id="@+id/txtEmail_Register"
+                android:id="@+id/txtEmail_Profile"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -150,7 +150,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"/>
             <EditText
-                android:id="@+id/txtPassword_Register"
+                android:id="@+id/txtPassword_Profile"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -166,7 +166,7 @@
                 />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnRegister_Register"
+                android:id="@+id/btnProfile_Edit_User"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:text="Cập nhật thông tin"

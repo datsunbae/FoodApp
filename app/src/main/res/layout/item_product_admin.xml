@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/pizza1" />
 
     <TextView
-        android:id="@+id/txtNameFoodCart"
+        android:id="@+id/txtIdOrderBill_itemOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -37,9 +37,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtNameFoodCart"
+        app:layout_constraintBottom_toBottomOf="@+id/txtIdOrderBill_itemOrder"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtNameFoodCart"
+        app:layout_constraintTop_toTopOf="@+id/txtIdOrderBill_itemOrder"
         android:background="@drawable/custom_background">
         <TextView
             android:layout_width="wrap_content"
@@ -82,8 +82,8 @@
         android:layout_height="match_parent"
         android:layout_marginTop="22dp"
         android:text="Món ăn này ngon nhất quan đó nha"
-        app:layout_constraintStart_toStartOf="@+id/txtNameFoodCart"
-        app:layout_constraintTop_toBottomOf="@+id/txtNameFoodCart" />
+        app:layout_constraintStart_toStartOf="@+id/txtIdOrderBill_itemOrder"
+        app:layout_constraintTop_toBottomOf="@+id/txtIdOrderBill_itemOrder" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

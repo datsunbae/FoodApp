@@ -13,11 +13,7 @@
         android:icon="@drawable/bottom_btn5"
         android:title="Giỏ hàng"/>
     <item
-        android:id="@+id/bottomSupport"
+        android:id="@+id/bottomBill"
         android:icon="@drawable/bottom_btn3"
-        android:title="Hỗ trợ"/>
-    <item
-        android:id="@+id/bottomSetting"
-        android:icon="@drawable/bottom_btn4"
-        android:title="Cài đặt"/>
+        android:title="Đơn hàng"/>
 </menu>

@@ -1,86 +1,123 @@
 package com.android.foodapp.Models;
 
-public class Food {
-    private String title;
-    private String image;
-    private String description;
-    private Double fee;
-    private int start;
-    private int time;
-    private int calories;
-    private int numberInCart;
+import com.google.gson.annotations.SerializedName;
 
-    public Food(String title, String image, String description, Double fee, int start, int time, int calories) {
-        this.title = title;
-        this.image = image;
-        this.description = description;
-        this.fee = fee;
-        this.start = start;
-        this.time = time;
-        this.calories = calories;
+import java.io.Serializable;
+
+public class Food implements Serializable {
+    @SerializedName("IdFood")
+    private int IdFood;
+    @SerializedName("NameFood")
+    private String NameFood;
+    @SerializedName("Price")
+    private double Price;
+    @SerializedName("PercentPromotion")
+    private int PercentPromotion;
+    @SerializedName("Description")
+    private String Description;
+    @SerializedName("Img")
+    private String Img;
+    @SerializedName("Status")
+    private boolean Status;
+    @SerializedName("TypeFood")
+    private boolean TypeFood;
+    @SerializedName("IsPublished")
+    private boolean IsPublished;
+    @SerializedName("IdCategory")
+    private int IdCategory;
+
+    public Food(){}
+
+    public Food(int idFood, String nameFood, double price, int percentPromotion, String description, String img, boolean status, boolean typeFood, boolean isPublished, int idCategory) {
+        IdFood = idFood;
+        NameFood = nameFood;
+        Price = price;
+        PercentPromotion = percentPromotion;
+        Description = description;
+        Img = img;
+        Status = status;
+        TypeFood = typeFood;
+        IsPublished = isPublished;
+        IdCategory = idCategory;
     }
 
-    public String getTitle() {
-        return title;
+    public int getIdFood() {
+        return IdFood;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setIdFood(int idFood) {
+        IdFood = idFood;
     }
 
-    public String getImage() {
-        return image;
+    public String getNameFood() {
+        return NameFood;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setNameFood(String nameFood) {
+        NameFood = nameFood;
+    }
+
+    public double getPrice() {
+        return Price;
+    }
+
+    public void setPrice(double price) {
+        Price = price;
+    }
+
+    public int getPercentPromotion() {
+        return PercentPromotion;
+    }
+
+    public void setPercentPromotion(int percentPromotion) {
+        PercentPromotion = percentPromotion;
     }
 
     public String getDescription() {
-        return description;
+        return Description;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        Description = description;
     }
 
-    public Double getFee() {
-        return fee;
+    public String getImg() {
+        return Img;
     }
 
-    public void setFee(Double fee) {
-        this.fee = fee;
+    public void setImg(String img) {
+        Img = img;
     }
 
-    public int getStart() {
-        return start;
+    public boolean isStatus() {
+        return Status;
     }
 
-    public void setStart(int start) {
-        this.start = start;
+    public void setStatus(boolean status) {
+        Status = status;
     }
 
-    public int getTime() {
-        return time;
+    public boolean isTypeFood() {
+        return TypeFood;
     }
 
-    public void setTime(int time) {
-        this.time = time;
+    public void setTypeFood(boolean typeFood) {
+        TypeFood = typeFood;
     }
 
-    public int getCalories() {
-        return calories;
+    public boolean isPublished() {
+        return IsPublished;
     }
 
-    public void setCalories(int calories) {
-        this.calories = calories;
+    public void setPublished(boolean published) {
+        IsPublished = published;
     }
 
-    public int getNumberInCart() {
-        return numberInCart;
+    public int getIdCategory() {
+        return IdCategory;
     }
 
-    public void setNumberInCart(int numberInCart) {
-        this.numberInCart = numberInCart;
+    public void setIdCategory(int idCategory) {
+        IdCategory = idCategory;
     }
 }

@@ -2,12 +2,14 @@ package com.android.foodapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import com.android.foodapp.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
+
+
     }
+
+
 }

@@ -42,36 +42,7 @@
                 android:columnOrderPreserved="false">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="120dp"
-                    android:layout_height="140dp"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="18dp"
-                    app:cardElevation="6dp"
-                    app:cardCornerRadius="15dp">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="16dp"
-                        android:background="@color/red2">
-
-                        <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:background="@drawable/women"/>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Trang chủ"
-                            android:textAlignment="center"
-                            android:textSize="15dp"/>
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnProduct_Dashboard"
                     android:layout_width="120dp"
                     android:layout_height="140dp"
                     android:layout_rowWeight="1"
@@ -102,6 +73,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/btnBill_Dashboard"
                     android:layout_width="120dp"
                     android:layout_height="140dp"
                     android:layout_rowWeight="1"
@@ -132,6 +104,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/btnCustomer_Dashboard"
                     android:layout_width="120dp"
                     android:layout_height="140dp"
                     android:layout_rowWeight="1"
@@ -160,6 +133,7 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/btnStaff_Dashboard"
                     android:layout_width="120dp"
                     android:layout_height="140dp"
                     android:layout_rowWeight="1"
@@ -187,6 +161,7 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/btnCategory_Dashboard"
                     android:layout_width="120dp"
                     android:layout_height="140dp"
                     android:layout_rowWeight="1"
@@ -208,7 +183,63 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Thoát"
+                            android:text="Quản lý danh mục"
+                            android:textAlignment="center"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnRole_Dashboard"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="18dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:background="@color/red2">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/women"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Quản lý quyền"
+                            android:textAlignment="center"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btnExit_Dashboard"
+                    android:layout_width="120dp"
+                    android:layout_height="140dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="18dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="15dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:background="@color/red2">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/women"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Exit"
                             android:textAlignment="center"
                             android:textSize="15dp"/>
                     </LinearLayout>
